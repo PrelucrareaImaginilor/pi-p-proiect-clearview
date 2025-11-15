@@ -1,10 +1,12 @@
 <strong>Detectia glaucomului</strong>
 <hr>
-Acest repository contine un cod in MATLAB care foloseste algoritmul de Cup to Disc Ratio (CDR) pentru a determina glaucomul pe baza unor poze din sursa ORIGA realizata de specialisti. 
+Acest repository contine un cod in MATLAB care foloseste algoritmul de Cup to Disc Ratio (CDR) pentru a determina glaucomul pe baza unor imagini din sursa ORIGA realizata de specialisti. 
 <br>
-Codul foloseste o baza de date OrigaList ce contine date despre fiecare poza si T/F pentru diagnostic, lucru posibil cu ajutorul unor masti marcate manual pe baza pozelor cu fundus al ochiului realizate de specialisti.
+Codul foloseste o baza de date OrigaList ce contine date despre fiecare imagine si T/F pentru diagnostic, lucru posibil cu ajutorul unor masti marcate manual pe baza pozelor cu fundus al ochiului realizate de specialisti.
 <br>
-Codul calculeaza si gradul de eficienta cu ajutorul Receiver Operating Characteristic (ROC) curb.
+Codul calculeaza si gradul de eficienta cu ajutorul Receiver Operating Characteristic (ROC) curb si afiseaza trei grafice pentru fiecare CDR calculat.
+<br>
+Ca si output, codul genereaza un fisier .csv ce contine un tabel cu datele despre fiecare imagine si diagnosticul corespunzator, verificat cu datele din OrigaList.mat.
 <br>
 <br>
 <strong>Cerinte laborator 2: </strong>
