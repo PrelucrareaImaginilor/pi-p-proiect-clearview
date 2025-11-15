@@ -6,6 +6,6 @@ Codul foloseste o baza de date OrigaList ce contine date despre fiecare poza si 
 <br>
 Codul calculeaza si gradul de eficienta cu ajutorul Receiver Operating Characteristic (ROC) curb.
 <br>
-<strong></strong>Sursa datelor si imaginilor provin din arhiva Kaggle: https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection </strong>
+<strong>Sursa datelor si imaginilor provin din arhiva Kaggle: https://www.kaggle.com/datasets/sshikamaru/glaucoma-detection </strong>
 <hr>
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/BzgEFjMi)
