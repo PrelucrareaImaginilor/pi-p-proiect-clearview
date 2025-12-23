@@ -1,10 +1,8 @@
 % --Functie detectie glaucom--
 function Compute_CDRs_ORIGA()
 %CDR - Cup To Disc Ratio
-
 %se incarca baza de date de comparatie
 load('OrigaList.mat');
-
 n = length(Origa);
 
 %variabile pentru tabelul de output
@@ -276,3 +274,4 @@ end
 FPR=1-spec; %false positive rate, axa X standard a ROC
 
 end
+
